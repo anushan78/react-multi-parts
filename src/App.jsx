@@ -1,5 +1,9 @@
 import Student from "./Student";
 import List from "./List";
+import SmallButton from "./SmallButton";
+import SetName from "./SetName";
+import EffectTest from "./EffectTest";
+import DemoRef from "./DemoRef";
 import "./App.css";
 
 function App() {
@@ -17,6 +21,18 @@ function App() {
       <br />
       <br />
       <List />
+      <br />
+      <br />
+      <SmallButton />
+      <br />
+      <br />
+      <SetName />
+      <br />
+      <br />
+      <EffectTest />
+      <br />
+      <br />
+      <DemoRef />
     </>
   );
 }
